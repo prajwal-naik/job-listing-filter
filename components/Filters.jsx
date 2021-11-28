@@ -29,7 +29,7 @@ function Filters() {
                             {
                                 selectedFeatures.map((filterTag) => (
                                     
-                                    <FadeIn>
+                                    <FadeIn key = {filterTag}>
                                         <div className = {styles.filterTag}>
                                             <p className = {styles.filterText}>{filterTag}</p>
                                             <div className = {styles.cross} onClick ={() => removeTag(filterTag)}>x</div>
