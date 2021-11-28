@@ -23,19 +23,11 @@ function Job({ company, logo, newFlag, featured, position, role, level, postedAt
 
 
     const checkDisplay = () => {
-        // console.log("jobFilter: ", jobFilter)
-        // console.log("selectedFeatures: ", selectedFeatures)
-        // for(var i = 0; i<jobFilter.length; i++){
-        //     if(selectedFeatures.includes(jobFilter[i]))
-        //         return true;
-        // }
-        // return false;
+        
         const flag = true;
         for(var i = 0; i< selectedFeatures.length; i++){
             if(!jobFilter.includes(selectedFeatures[i]))
                 flag = false;
-                // break;
-                // return flag;
         }
         return flag;
         
