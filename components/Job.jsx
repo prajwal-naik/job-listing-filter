@@ -31,12 +31,12 @@ function Job({ company, logo, newFlag, featured, position, role, level, postedAt
         // }
         // return false;
         const flag = true;
-        // for(var i = 0; i< selectedFeatures.length; i++){
-        //     if(!jobFilter.includes(selectedFeatures[i]))
-        //         flag = false;
-        //         // break;
-        //         // return flag;
-        // }
+        for(var i = 0; i< selectedFeatures.length; i++){
+            if(!jobFilter.includes(selectedFeatures[i]))
+                flag = false;
+                // break;
+                // return flag;
+        }
         return flag;
         
     }
