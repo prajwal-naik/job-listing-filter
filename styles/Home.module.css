@@ -1,0 +1,31 @@
+.headerDiv{
+  background-color: hsl(180, 29%, 50%);
+  width: 100%;
+  position: relative;
+  height: 150px;
+  z-index: 1;
+}
+
+.jobs{
+  /* display: flex;
+  flex-direction: column; */
+  /* border: 2px solid black; */
+  max-height: calc(100vh - 150px);
+  overflow: scroll;
+  padding-block: 40px;
+  padding-bottom: 40px;
+}
+
+.jobs::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.jobs {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+
+
+

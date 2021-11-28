@@ -1,0 +1,90 @@
+.jobsContainer{
+    max-width: 58rem;
+    /* border: 2px solid black; */
+    margin-block: 40px;
+    margin-inline: auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    --tw-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+    border-radius: 5px;
+    border-left: 5px solid hsl(180, 29%, 50%);
+}
+
+.jobsContainerLeft{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid blue */
+}
+
+.logoDiv{
+    border-radius: 9999px;
+    /* border: 2px solid blue; */
+    position: relative;
+    height: 100px;
+    width: 100px;
+    /* object-fit: contain; */
+}
+
+.jobDetailsDiv{
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    gap: 15px
+    /* justify-content: space-between; */
+}
+
+/* .jobDetailsDiv > div{
+    border: 2px solid blue
+} */
+
+.companyName{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.jobsContainerRight{
+    display: flex;
+    /* border: 2px solid black; */
+    align-items: center;
+    justify-content: center;
+    gap: 10px
+}
+
+.positionName{
+    color: hsl(180, 14%, 20%);
+    font-size: 20px;
+    font-weight: 900;
+    cursor: pointer;
+    transition: all;
+    transition-duration: 400ms;
+}
+
+.positionName:hover{
+    color: hsl(180, 29%, 50%);
+}
+
+.tag{
+    background-color:hsl(180, 31%, 95%);
+    color: hsl(180, 29%, 50%);
+    font-size: 12px; 
+    font-weight: 700;
+    border-radius: 5px; 
+    padding-inline: 10px; 
+    padding-block: 8px; 
+    cursor: pointer;
+    transition: all;
+    transition-duration: 400ms;
+}
+
+.tag:hover{
+    background-color: hsl(180, 29%, 50%);
+    color: white;
+}
